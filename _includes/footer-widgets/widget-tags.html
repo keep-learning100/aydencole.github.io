@@ -4,7 +4,10 @@
       <h3 class="widget__title">Explore tags</h3>
     </div>
     <div class="tag__cloud">
-      {{ site | tag_cloud }}
+      {% assign tags = site.posts | map: "tags" | uniq %}
+      {% for tag in tags %}
+        <a href="/tags/{{ tag | slugify }}" class="tag">{{ tag }}</a>
+      {% endfor %}
     </div>
   </div>
 </div>

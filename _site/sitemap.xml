@@ -16,10 +16,4 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
-<url>
-<loc>http://localhost:4000/tag/study</loc>
-</url>
-<url>
-<loc>http://localhost:4000/tag/personal</loc>
-</url>
 </urlset>
