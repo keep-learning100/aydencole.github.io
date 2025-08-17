@@ -12,7 +12,7 @@ Learning cybersecurity is teaching me a wide range of tools and resources. In a 
     {% endhighlight %}
 2. IBM Technology
 
-    <p><iframe src="https://youtu.be/kqaMIFEz15s?si=xYyJHTzGtHKuYi6d" frameborder="0" allowfullscreen></iframe></p>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/kqaMIFEz15s?si=1GU2_hj24-Aps2Y_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     
 3. Jekyll
 
