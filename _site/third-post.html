@@ -194,9 +194,9 @@
       
       <div class="post__tags">
         
-          <a href="/tag/study" class="post__tag">study</a>
+          <a href="/tag/AI" class="post__tag">AI</a>
         
-          <a href="/tag/personal" class="post__tag">personal</a>
+          <a href="/tag/opinion" class="post__tag">opinion</a>
         
       </div>
       
@@ -233,13 +233,12 @@
 
 <p>AI can prompt users to enter more data than they might ever trust to the Google search engine. When people use a web search engine, they are rewarded for inputting precise, jargon-free queries. However, AI responds better to more sophisticated kinds of queries. A helpful acronym for building a strong AI prompt I learned from my Google Cybersecurity Certificate is TCREI (Task, Context, References, Evaluate, Iterate). Even if people don’t know this specific acronym ahead of time, they will learn these principles through trial-and-error interacting with AI. Consider how data fits into TCREI – AI prompts require a lot more data than a web search. And not just in terms of bytes! Context and references contain the personal details that we usually leave out in a web search.</p>
 
-<p>As an example, imagine you’re looking for a movie to watch. If you’re Googling, you might try a search like “best sci fi movies on Netflix.” If you’re not happy with the search results, you might try a couple iterations like adding “right now” or swapping “movies” for “shows,” but that might be the extent. Now imaging you’re asking AI like Google Gemini for movies to watch. A good prompt might look something like this.
-***</p>
+<p>As an example, imagine you’re looking for a movie to watch. If you’re Googling, you might try a search like “best sci fi movies on Netflix.” If you’re not happy with the search results, you might try a couple iterations like adding “right now” or swapping “movies” for “shows,” but that might be the extent. Now imagine you’re asking AI like Google Gemini for movies to watch. A good prompt might look something like this.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>“Hi Gemini! I need your help finding something sci fi to watch tonight (Task). I have a couple hours to kill so anything goes, but it will need to be on Netflix or HBO Max, since those are the only streaming services I have (Context). Just to give you an idea, last night I watched the Clover field Paradox and really enjoyed that (Reference). Can you give me a couple suggestions?” *** 
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>“Hi Gemini! I need your help finding something sci fi to watch tonight (Task). I have a couple hours to kill so anything goes, but it will need to be on Netflix or HBO Max, since those are the only streaming services I have (Context). Just to give you an idea, last night I watched the Clover field Paradox and really enjoyed that (Reference). Can you give me a couple suggestions?”
 </code></pre></div></div>
 
-<p>This is an effective prompt (see the response in the notes at the end if you like), but notice how personal data it contains. Interacting with a chat bot is designed to feel like talking with a person, so it can seem innocuous to provide this level of detail. Here is the scenario that concerns me though. If a malicious actor were to gain access to the AI’s programming, they could cause the AI to request increasingly sensitive data from the user. AI responses often end with a request for additional information. A bad actor could program AI to ask for revealing information like banking info, HIPPA protected data, etc. They wouldn’t even have to gain access to a proprietary model like Gemini; they could simply using social engineering like phishing and spoof Gemini, so unsuspecting users think their information is going to Google but it’s really going directly into the wrong hands.</p>
+<p>This is an effective prompt, but notice how much personal data it contains. Interacting with a chat bot is designed to feel like talking with a person, so it can seem innocuous to provide this level of detail. Here is the scenario that concerns me though. If a malicious actor were to gain access to the AI’s programming, they could cause the AI to request increasingly sensitive data from the user. AI responses often end with a request for additional information. A bad actor could program AI to ask for revealing information like banking info, HIPPA protected data, etc. They wouldn’t even have to gain access to a proprietary model like Gemini; they could simply using social engineering like phishing and spoof Gemini, so unsuspecting users think their information is going to Google but it’s really going directly into the wrong hands.</p>
 
 <p>To wrap up my concerns about data, it has less to do with how AI companies use or store that data, and more to do with two potential rungs of social engineering. The first rung is hacking or spoofing, so users think they’re communicating with a proprietary model, but their information is really being intercepted or going straight to bad people. The second, more unique rung, is commanding AI to lure users into a false sense of security and nudging them to give away compromising information.</p>
 
@@ -247,7 +246,7 @@
 
 <p>All the popular AI models people are using – be that Gemini, ChatGPT, or one of many others – are being accessed in the cloud. As these AI models are integrated into more and more settings, we will likely become more dependent on cloud security. In most enterprise settings, we utilize a hybrid approach and migrate some things into the cloud while keeping our most critical data safe at home on our local networks. The cloud may be sophisticated, but it still presents a large attack surface after all. But our tendency to access AI capabilities via a single vector could lead to a tipping point where segmentation is neglected and critical processes are thoughtlessly migrated to the cloud.</p>
 
-<p>Some of these concerns stem from my work experience in the medical field. Medicine is ripe for the introduction of AI. For example, one of the current pain points in the field is the time it takes to get scans read. For a variety of reasons, the supply of radiologists is increasing while the number of patients is growing. AI could solve this problem beautifully by providing fast and inexpensive scan results. Here is the nuance though. It’s already too expensive and time-consuming to become a radiologist, which is part of why we don’t have enough of them. If medical institutions rush to use AI-radiologists and stop hiring real people, we will throttle the supply of people who can read scans. This may be well and good if the AI works, but consider where we’re keeping the AI – in centralized cloud data centers with massive attack surfaces that we depend on network connectivity to access.</p>
+<p>Some of these concerns stem from my work experience in the medical field. Medicine is ripe for the introduction of AI. For example, one of the current pain points in the field is the time it takes to get scans read. For a variety of reasons, the supply of radiologists is decreasing while the number of patients is increasing. AI could solve this problem beautifully by providing fast and inexpensive scan results. Here is the nuance though. It’s already too expensive and time-consuming to become a radiologist, which is part of why we don’t have enough of them. If medical institutions rush to use AI-radiologists and stop hiring real people, we will throttle the supply of people who can read scans. This may be well and good if the AI works, but consider where we’re keeping the AI – in centralized cloud data centers with massive attack surfaces that we depend on network connectivity to access.</p>
 
 <p>It’s never a good idea to put all your eggs in one basket. The current medical system, expensive and inefficient as it may be, at least has the benefit of redundancy and decentralization. There are radiologists all around the country who can read our scans. If someone quits, someone else will take their place. The same thing goes in many other industries. I’m not saying we can’t implement a high degree of resiliency into the digital world. Cloud providers can build more data centers and we can incorporate more routes to connect to the internet, whether that is more cities installing fiber optic lines or Star Link putting up more satellites. But what I am saying is that these fail-safes will need to be planned from the start, and we have to bear in mind that every new data center or internet connection expands an object’s attack surface.</p>
 
@@ -313,21 +312,14 @@
             
       
             
-            
-            
-            
-      
-            
-      
-            
 
               <div class="related-article col col-4 col-d-12">
                 <div class="related-article__inner">
 
                   
                   <div class="image-wrap">
-                    <a class="related-article__image" href="/second_post">
-                      <img class="lazy" data-src="/images/07.jpg" alt="Getting Started on Network Plus">
+                    <a class="related-article__image" href="/fourth-post">
+                      <img class="lazy" data-src="/images/08.jpg" alt="Three Benefits of Using Jan AI">
                     </a>
                   </div>
                   
@@ -335,10 +327,10 @@
                   <div class="related-article__content">
 
                     <h2 class="related-article__title">
-                      <a href="/second_post">Getting Started on Network Plus</a>
+                      <a href="/fourth-post">Three Benefits of Using Jan AI</a>
                     </h2>
 
-                    <p class="related-article__excerpt">Walking through my one month plan</p>
+                    <p class="related-article__excerpt">Securing AI - Part II</p>
 
 
                     <div class="related-article__bottom">
@@ -348,7 +340,7 @@
                         </a>
                         <div class="related-article__info">
                           <a href="/about/" class="related-article__author-link">Ayden Cole</a>
-                          <time class="related-article__date" datetime="2025-08-17T10:51:42-07:00">17 Aug 2025</time>
+                          <time class="related-article__date" datetime="2025-09-09T16:17:14-07:00">09 Sep 2025</time>
                         </div>
                       </div>
                     </div>
@@ -367,46 +359,20 @@
             
       
             
-
-              <div class="related-article col col-4 col-d-12">
-                <div class="related-article__inner">
-
-                  
-                  <div class="image-wrap">
-                    <a class="related-article__image" href="/first-post-ever">
-                      <img class="lazy" data-src="/images/05.jpg" alt="Hello World!">
-                    </a>
-                  </div>
-                  
-
-                  <div class="related-article__content">
-
-                    <h2 class="related-article__title">
-                      <a href="/first-post-ever">Hello World!</a>
-                    </h2>
-
-                    <p class="related-article__excerpt">A brief explanation of who I am and what this blog is for</p>
-
-
-                    <div class="related-article__bottom">
-                      <div class="related-article__meta">
-                        <a href="/about/" class="related-article__author-image">
-                          <img class="lazy" data-src="/images/01-1.jpg" alt="Ayden Cole">
-                        </a>
-                        <div class="related-article__info">
-                          <a href="/about/" class="related-article__author-link">Ayden Cole</a>
-                          <time class="related-article__date" datetime="2025-08-15T15:31:05-07:00">15 Aug 2025</time>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-
             
-                
-              
+            
+            
+      
+            
+      
+            
+            
+            
+            
+      
+            
+      
+            
             
           </div>
         </div>
@@ -502,11 +468,15 @@
     <div class="tag__cloud">
       
       
+        <a href="/tags/ai" class="tag">AI</a>
+      
+        <a href="/tags/opinion" class="tag">opinion</a>
+      
         <a href="/tags/study" class="tag">study</a>
       
-        <a href="/tags/personal" class="tag">personal</a>
-      
         <a href="/tags/networking" class="tag">networking</a>
+      
+        <a href="/tags/personal" class="tag">personal</a>
       
     </div>
   </div>

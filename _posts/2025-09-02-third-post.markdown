@@ -4,7 +4,7 @@ title:  Three Types of Risk with Traditional AI
 description: Securing AI - Part I
 date:   2025-09-02 10:15:08 -0700
 image:  '/images/06-1.jpg'
-tags:   [study, personal]
+tags:   [AI, opinion]
 ---
 ### Some lurking problems...
 
