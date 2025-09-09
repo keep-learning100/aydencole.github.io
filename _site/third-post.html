@@ -6,21 +6,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Little Sales Pitch for Offline AI - Part 1</title>
-  <meta name='description' content='The Security Problems with Traditional AI'>
+  <title>Three Types of Risk with Traditional AI</title>
+  <meta name='description' content='Securing AI - Part I'>
 
   <link rel="canonical" href="http://localhost:4000/third-post">
   <link rel="alternate" type="application/rss+xml" title="Ayden Cole" href="/feed.xml">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="A Little Sales Pitch for Offline AI - Part 1 – Ayden Cole">
-  <meta name="twitter:description" content="The Security Problems with Traditional AI">
+  <meta name="twitter:title" content="Three Types of Risk with Traditional AI – Ayden Cole">
+  <meta name="twitter:description" content="Securing AI - Part I">
   <meta name="twitter:image:src" content="http://localhost:4000/images/06-1.jpg">
 
   <!-- Facebook OpenGraph -->
-  <meta property="og:title" content="A Little Sales Pitch for Offline AI - Part 1 – Ayden Cole" />
-  <meta property="og:description" content="The Security Problems with Traditional AI" />
+  <meta property="og:title" content="Three Types of Risk with Traditional AI – Ayden Cole" />
+  <meta property="og:description" content="Securing AI - Part I" />
   <meta property="og:image" content="http://localhost:4000/images/06-1.jpg" />
 
   <!-- Fonts -->
@@ -200,7 +200,7 @@
         
       </div>
       
-      <h1 class="post__title">A Little Sales Pitch for Offline AI - Part 1</h1>
+      <h1 class="post__title">Three Types of Risk with Traditional AI</h1>
       <div class="post__meta">
         <div class="post__author">
           <a href="/about/" class="post__author-image">
@@ -211,33 +211,53 @@
         <time class="post__date" datetime="2025-09-02T10:15:08-07:00">02 Sep 2025</time>
       </div>
       
-        <p class="post__description">The Security Problems with Traditional AI</p>
+        <p class="post__description">Securing AI - Part I</p>
       
     </div>
   
     
     <div class="post-image">
-      <img class="lazy" data-src="/images/06-1.jpg" alt="A Little Sales Pitch for Offline AI - Part 1">
+      <img class="lazy" data-src="/images/06-1.jpg" alt="Three Types of Risk with Traditional AI">
     </div>
     
 
     <div class="post__content">
 
-      <p>I first heard about AI from my dad a few years ago, when he brought up this new thing called Chat GPT. I made an an account and started playing around with ChatGPT. I was awestruck with its ability to write goofy but technically brilliant poems on command, so I appreciated its comedic value but I didn’t see much more use for it, and left it by the wayside for a couple years. But about 6 months ago, I had a chat with a coworker who was using AI to build SaaS using a mix of vibe coding and his own rich IT experience to keep a human-in-the-loop. That conversation inspired me to revisit the world of AI, and start experimenting with newer models like Grok 4 and ChatGPT 5. I discovered that it’s not only incredibly useful for everyday tasks, it can (with proper caution) be implemented into cybersecurity in some intriguing ways. But most people may not be aware there are more interesting ways to engage with AI for cybersecurity beyond the traditional cloud-based models, and it’s those types of alternatives that I’d like to discuss today.</p>
+      <h3 id="some-lurking-problems">Some lurking problems…</h3>
 
-<p>The traditional AI models that you access online (e.g. Gemini, Grok, etc.) have some major OpSec flaws. These flaws begin with the log in process. In order to use the service, you have to provide a bunch of personally identifiable information (PII), like your name and email. Then when you start to interact with the AI, everything you say goes directly to the owner. I suspect this is more of a problem than simple Google searching, because talking with an AI assistant feels like talking with a real person, so people are more comfortable sharing parts of their life that they would never enter into a Google search field.</p>
+<p>When people bring up their fears about AI (Artificial Intelligence), it’s common to hear concerns like mass unemployment, a total blurring of real and fake news, or nuclear Armageddon. Those might all be valid fears, but they mostly revolve around the development of AGI (Artificial General Intelligence), which is only hypothetical at this point in time. I have a few other concerns that are more immediate, since they have to do with the way modern AI is already being used. They are all security focused, of course. Here are the issues I see – Generative AI, the way most of us use it now, makes us more vulnerable to threats like data breaches, system failure, and ironically enough, obsolescence.</p>
 
-<blockquote>
-  <p>Users feel like they’re chatting with a friend, so they might be lured in with a false sense of security to share things they would never enter into a Google search.</p>
-</blockquote>
+<h5 id="data">Data</h5>
 
-<p>Imagine a scenario where a doctor is researching a patient’s medical problem with Google (more common than you might think, lol). Now imagine they are doing the same thing with AI. I suspect they would be far more likely to slip up and enter HIPPA protected information about their patient when they’re talking with a chatbot than when they’re trying to enter the shortest Google search they can think of.</p>
+<p>We all know AI is trained on nearly inconceivable swathes of data and that AI companies like Open AI are hungry for even more. So when we discuss user inputs, it’s natural to think of that in the context of how AI companies are using your input to train their AI. I have sometimes heard complaints from people who don’t like the way their data is being used to advance AI in ways they might think are unethical. But what gets less attention is what kinds of sensitive data users might be entering, and how good, old-fashioned social engineering could lead users to put the wrong information into the wrong hands.</p>
 
-<p>That may not be a big problem when AI assistants are behaving how they are supposed to. But if they were to be hacked and someone with a knack for social engineering were to take control, users could be prompted to enter a lot of sensitive information, ranging from medical info down to banking information.</p>
+<p>AI can prompt users to enter more data than they might ever trust to the Google search engine. When people use a web search engine, they are rewarded for inputting precise, jargon-free queries. However, AI responds better to more sophisticated kinds of queries. A helpful acronym for building a strong AI prompt I learned from my Google Cybersecurity Certificate is TCREI (Task, Context, References, Evaluate, Iterate). Even if people don’t know this specific acronym ahead of time, they will learn these principles through trial-and-error interacting with AI. Consider how data fits into TCREI – AI prompts require a lot more data than a web search. And not just in terms of bytes! Context and references contain the personal details that we usually leave out in a web search.</p>
 
-<p>My last critique is that even when AI models are safeguarded from malicious hackers, you have to consider that the company’s and individuals that own these models may not have your best interests in mind. Those AI models that you depend on have to be accessed via the cloud. What happens when the companies start charging subscriptions for the services you’ve grown to depend on and you’ve built too much context into your account to let go? What happens when they have a political change of heart, and decide to lobotomize their AI to match their every whim? (Looking at you, Elon.) Or even if it’s not that overt, at the very least you know those companies are using your data to train their models and advance their scummy business practices that involve everything from copyright infringment to silencing whistleblowers.</p>
+<p>As an example, imagine you’re looking for a movie to watch. If you’re Googling, you might try a search like “best sci fi movies on Netflix.” If you’re not happy with the search results, you might try a couple iterations like adding “right now” or swapping “movies” for “shows,” but that might be the extent. Now imaging you’re asking AI like Google Gemini for movies to watch. A good prompt might look something like this.
+***</p>
 
-<p>Proprietary AI models are developing at lightning speed, and there is certainly use for them. But if you want to incorporate AI into your cybersecurity model, you have to do some honest reflection about the risks and vulnerabilities inherent in vesting so much of your data in the hands of a cloud based company. Which will lead us to Part 2 - an alternative.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>“Hi Gemini! I need your help finding something sci fi to watch tonight (Task). I have a couple hours to kill so anything goes, but it will need to be on Netflix or HBO Max, since those are the only streaming services I have (Context). Just to give you an idea, last night I watched the Clover field Paradox and really enjoyed that (Reference). Can you give me a couple suggestions?” *** 
+</code></pre></div></div>
+
+<p>This is an effective prompt (see the response in the notes at the end if you like), but notice how personal data it contains. Interacting with a chat bot is designed to feel like talking with a person, so it can seem innocuous to provide this level of detail. Here is the scenario that concerns me though. If a malicious actor were to gain access to the AI’s programming, they could cause the AI to request increasingly sensitive data from the user. AI responses often end with a request for additional information. A bad actor could program AI to ask for revealing information like banking info, HIPPA protected data, etc. They wouldn’t even have to gain access to a proprietary model like Gemini; they could simply using social engineering like phishing and spoof Gemini, so unsuspecting users think their information is going to Google but it’s really going directly into the wrong hands.</p>
+
+<p>To wrap up my concerns about data, it has less to do with how AI companies use or store that data, and more to do with two potential rungs of social engineering. The first rung is hacking or spoofing, so users think they’re communicating with a proprietary model, but their information is really being intercepted or going straight to bad people. The second, more unique rung, is commanding AI to lure users into a false sense of security and nudging them to give away compromising information.</p>
+
+<h5 id="cloud-dependence">Cloud Dependence</h5>
+
+<p>All the popular AI models people are using – be that Gemini, ChatGPT, or one of many others – are being accessed in the cloud. As these AI models are integrated into more and more settings, we will likely become more dependent on cloud security. In most enterprise settings, we utilize a hybrid approach and migrate some things into the cloud while keeping our most critical data safe at home on our local networks. The cloud may be sophisticated, but it still presents a large attack surface after all. But our tendency to access AI capabilities via a single vector could lead to a tipping point where segmentation is neglected and critical processes are thoughtlessly migrated to the cloud.</p>
+
+<p>Some of these concerns stem from my work experience in the medical field. Medicine is ripe for the introduction of AI. For example, one of the current pain points in the field is the time it takes to get scans read. For a variety of reasons, the supply of radiologists is increasing while the number of patients is growing. AI could solve this problem beautifully by providing fast and inexpensive scan results. Here is the nuance though. It’s already too expensive and time-consuming to become a radiologist, which is part of why we don’t have enough of them. If medical institutions rush to use AI-radiologists and stop hiring real people, we will throttle the supply of people who can read scans. This may be well and good if the AI works, but consider where we’re keeping the AI – in centralized cloud data centers with massive attack surfaces that we depend on network connectivity to access.</p>
+
+<p>It’s never a good idea to put all your eggs in one basket. The current medical system, expensive and inefficient as it may be, at least has the benefit of redundancy and decentralization. There are radiologists all around the country who can read our scans. If someone quits, someone else will take their place. The same thing goes in many other industries. I’m not saying we can’t implement a high degree of resiliency into the digital world. Cloud providers can build more data centers and we can incorporate more routes to connect to the internet, whether that is more cities installing fiber optic lines or Star Link putting up more satellites. But what I am saying is that these fail-safes will need to be planned from the start, and we have to bear in mind that every new data center or internet connection expands an object’s attack surface.</p>
+
+<h5 id="obsolescence">Obsolescence</h5>
+
+<p>Security through obscurity is the concept of preventing attacks by keeping your system designs a secret. Although at first glance it seems like a smart idea, it is widely concerned to be bad Cybersecurity practice. It works as a band-aid since it takes more time for hackers to map out your system before they can attack, but it doesn’t allow you to evolve quickly. A better solution is open-source, where more eyes and more contributors mean flaws get spotted and patched in real time. In the AI space, the conversation is centered on performance, not security, so all secrets are trade secrets. AI models are proprietary, not open-source. This approach is key to getting a competitive edge in the marketplace, but it’s not the best practice for making systems secure. In fact, from a security perspective, security through obscurity in AI could ultimately lead to obsolescence – hackers will eventually map out the attack surface in detail, and then companies may not be able to keep up with their ability to find new vectors.</p>
+
+<h3 id="looking-forward">Looking forward</h3>
+
+<p>If we continue to expand our AI use without seriously grappling with its security flaws, we risk the confidentiality of our data and the integrity of our systems, and we reduce the availability of its full potential to a select few powerful people. Since AI is being adopted so rapidly, I think it’s reasonable to harp on these failures. However, it’s clear that certain features of AI could be radically effective at solving pain points in industries ranging from radiology to entertainment. AI is here to stay. With that in mind, we need to start thinking in terms of solutions, not just worst case scenarios. And there are solutions! They have not gotten a lot of limelight yet, but I believe we have alternatives that will strengthen all three pillars of the aforementioned CIA triad. In my next post, I will discuss one alternative that I consider to be the most secure option on the market – offline, open-source AI.</p>
 
 
       <div class="post__bottom">
@@ -247,7 +267,7 @@
           </div>
           <ul class="share__list list-reset">
             <li class="share__item">
-              <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=A%20Little%20Sales%20Pitch%20for%20Offline%20AI%20-%20Part%201&url=http://localhost:4000/third-post"
+              <a class="share__link share__twitter" href="https://twitter.com/intent/tweet?text=Three%20Types%20of%20Risk%20with%20Traditional%20AI&url=http://localhost:4000/third-post"
                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
                 title="Share on Twitter" aria-label="Share on Twitter"><i class="ion ion-logo-twitter"></i></a>
             </li>
@@ -258,7 +278,7 @@
             </li>
             <li class="share__item">
               <a class="share__link share__pinterest"
-                href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/third-post&amp;media=http://localhost:4000/images/06-1.jpg&amp;description=A%20Little%20Sales%20Pitch%20for%20Offline%20AI%20-%20Part%201"
+                href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/third-post&amp;media=http://localhost:4000/images/06-1.jpg&amp;description=Three%20Types%20of%20Risk%20with%20Traditional%20AI"
                 onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
                 title="Share on Pinterest" aria-label="Share on Pinterest"><i class="ion ion-logo-pinterest"></i></a>
             </li>

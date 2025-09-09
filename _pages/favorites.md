@@ -5,7 +5,8 @@ permalink: /favorites/
 ---
 Learning cybersecurity is teaching me a wide range of tools and resources. In a nod to the OWASP Top 10, here is my rotating list of my top 10 favorite cybersecurity things. Rather than update these every few years, I will simply update these whenever I feel like it.
 
-1. Jan AI 
+1. Jan AI
+ 
     Jan.ai provides free, open-source AI models that you can download on to your own device for ultimate privacy. I love Jan.ai because it's private and it's not reliant on the cloud.
    
 
