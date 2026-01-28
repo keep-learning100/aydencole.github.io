@@ -16,8 +16,8 @@ author:
   avatar: '/images/01-1.jpg'
 
 social:
-- {icon: "ion-logo-twitter", label: Twitter, link: "https://x.com/keep_learning10"}
-- {icon: "ion-logo-instagram", label: Instagram, link: "https://instagram.com/ayden.cole"}
+#- {icon: "ion-logo-twitter", label: Twitter, link: "https://x.com/keep_learning10"}
+#- {icon: "ion-logo-instagram", label: Instagram, link: "https://instagram.com/ayden.cole"}
 - {icon: "ion-logo-github", label: Github, link: "https://github.com/keep-learning100"}
 - {icon: "ion-logo-linkedin", label: LinkedIn, link: "https://linkedin.com/in/ayden-cole"}
 
