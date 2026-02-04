@@ -16,7 +16,7 @@ author:
   avatar: '/images/01-1.jpg'
 
 social:
-#- {icon: "ion-logo-twitter", label: Twitter, link: "https://x.com/keep_learning10"}
+#- {icon: "ion-logo-twitter", label: Twitter, link: "https://x.com/Ayden987925"}
 #- {icon: "ion-logo-instagram", label: Instagram, link: "https://instagram.com/ayden.cole"}
 - {icon: "ion-logo-github", label: Github, link: "https://github.com/keep-learning100"}
 - {icon: "ion-logo-linkedin", label: LinkedIn, link: "https://linkedin.com/in/ayden-cole"}
@@ -46,7 +46,7 @@ social:
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+# google-analytics: # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
