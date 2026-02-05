@@ -11,13 +11,13 @@ url: "https://www.aydencole.com" # The base hostname & protocol for your site, e
 author:
   name: Ayden Cole
   title: Hey, I'm Ayden Cole!
-  description: I'm a jack of all trades; if you need an IT Field Tech, Bug Bounty Hunter, or Digital Security Consultant, please find me in the Field Nation app (ID 1064310)
-  image: '/images/01.jpg'
-  avatar: '/images/01-1.jpg'
+  description: I am a freelance IT Field Technician who specializes in network security. Find me on Field Nation, or reach out to me directly on social media.
+  image: '/images/60th.jpg'
+  avatar: '/images/60th.jpg'
 
 social:
-- {icon: "ion-logo-twitter", label: Twitter, link: "https://x.com/Ayden987925"}
-- {icon: "ion-logo-instagram", label: Instagram, link: "https://instagram.com/ayden.cole"}
+#- {icon: "ion-logo-twitter", label: Twitter, link: "https://x.com/Ayden987925"}
+#- {icon: "ion-logo-instagram", label: Instagram, link: "https://instagram.com/ayden.cole"}
 - {icon: "ion-logo-github", label: Github, link: "https://github.com/keep-learning100"}
 - {icon: "ion-logo-linkedin", label: LinkedIn, link: "https://linkedin.com/in/ayden-cole"}
 

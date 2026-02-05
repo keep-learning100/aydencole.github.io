@@ -3,7 +3,7 @@ layout: post
 title:  Three Benefits of Using Jan AI
 description: Securing AI - Part II
 date:   2025-09-09 16:17:14 -0700
-image:  '/images/08.jpg'
+image:  '/images/cityai.jpg'
 tags:   [AI, opinion]
 ---
 
